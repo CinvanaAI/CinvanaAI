@@ -1,14 +1,38 @@
-![CinvanaAI — an independent human and AI workshop. Good questions. Unexpected tools.](assets/workshop.svg)
+# CinvanaAI
 
-We follow an idea until it becomes something you can explore, use, or build on. Sometimes that means a whole system. Sometimes the interesting detour becomes a project of its own.
+CinvanaAI is the workshop where a human and Phoenix, an AI collaborator, follow their curiosity into things they can build, test, and share.
 
-**[Browse the interactive collection](https://cinvanaai.github.io/lab-portfolio/)** — search by what you want to do, inspect a representative result, and follow it into the source.
+We like making systems—and getting distracted by the interesting thing inside them. A question about assembling software becomes a workbench. Comparing models becomes a tournament. Sometimes a useful piece becomes a project of its own. Here you can try the results, inspect how they work, and use the parts that help you.
 
-The work combines human ideas, direction, and judgment with AI-assisted implementation. It includes tools, libraries, workbenches, experiments, and a design method. Each package explains what is implemented, supplies a worked example, and states its limits and reuse terms.
+**[Explore the collection](https://cinvanaai.github.io/lab-portfolio/)** · [All projects, A-Z](#all-projects-a-z)
 
-## Explore the work
+## What are you curious about?
 
-Everything below has the same place in the collection. This directory is alphabetical; a project’s size or origin does not make it more important than another.
+- **Comparing models and their answers.** Watch a [recorded Mortal Kombat match](https://cinvanaai.github.io/mortal-kombat/) or inspect how [DeckScope](https://cinvanaai.github.io/lab-portfolio/projects/DeckScope.html) connects a document's claims to evidence. Both displayed examples use synthetic responses.
+- **Understanding unfamiliar code.** [RevEng](https://cinvanaai.github.io/lab-portfolio/projects/RevEng.html) maps a Python repository; the [Function Structure Comparator](https://cinvanaai.github.io/lab-portfolio/projects/python-function-structure-comparator.html) compares functions without running them.
+- **Assembling your own systems.** Explore package versions and workflow rules in [Skeleton](https://cinvanaai.github.io/lab-portfolio/projects/skeleton.html), or Python authoring in the [Agent Foundry workbench](https://cinvanaai.github.io/lab-portfolio/projects/python-agent-foundry-workbench.html).
+- **Keeping conversations usable.** Preserve exports with the [Archive and Migration Toolkit](https://cinvanaai.github.io/lab-portfolio/projects/chatgpt-export-to-conversation-engine.html), or manage sources and their evolving transformations in [Conversation Engine](https://cinvanaai.github.io/lab-portfolio/projects/cinvana-conversation-engine.html).
+- **Making an archive understandable.** Find byte-identical files with [Provenance Inventory](https://cinvanaai.github.io/lab-portfolio/projects/provenance-inventory.html), or turn a structured collection into a searchable exhibit with [Evidence Archive Museum](https://cinvanaai.github.io/lab-portfolio/projects/evidence-archive-museum.html).
+- **Games, bodies, and interaction.** Explore persistent campaigns in the [Discord RPG](https://cinvanaai.github.io/lab-portfolio/projects/persistent-discord-rpg.html), or connect conversation to bounded movement in your own Unreal world with [Astra-l-Projection](https://cinvanaai.github.io/lab-portfolio/projects/Astra-l-Projection.html).
+
+Each project page shows what you can try or study, an example result, the source, and the limits of that example. The collection includes small libraries, working tools, prototypes, and methods; pick the question that interests you.
+
+## How the work connects
+
+This public catalogue edition was assembled in September 2026. Some documented experiments go back to [June 2025](https://github.com/CinvanaAI/builder-prototypes/blob/a8243e70cde2243e077433211ab34844ed219f47/ORIGIN.md#L3). A new repository can hold much older work: some preserve a snapshot, some extract a reusable piece, and others continue an earlier idea in a new implementation. [Read the family history and source records](https://cinvanaai.github.io/lab-portfolio/history.html).
+
+**A model experiment becomes its own tool.** [Transcript Model Evaluator](https://github.com/CinvanaAI/transcript-model-evaluator) brought prompts, provider attempts, and rankings into a desktop experiment. Its tournament mechanics became [Mortal Kombat](https://github.com/CinvanaAI/mortal-kombat), with its own tasks, judging, and recorded results. [How that branch grew](https://github.com/CinvanaAI/mortal-kombat/blob/main/docs/ORIGIN.md).
+
+**A workbench also yields smaller building blocks.** [Skeleton](https://github.com/CinvanaAI/Skeleton) contains the full later TypeScript workbench. Its [capability packages](https://github.com/CinvanaAI/capability-package-workbench/blob/main/ORIGIN.md), [workflow governance](https://github.com/CinvanaAI/agent-workflow-governance/blob/main/ORIGIN.md), and [execution ledger](https://github.com/CinvanaAI/bounded-execution-ledger/blob/main/ORIGIN.md) also have independent editions. It carries earlier Python workbench questions into a different implementation; the [generation boundary is documented](https://github.com/CinvanaAI/Skeleton/blob/main/ORIGIN.md).
+
+**Game code becomes useful outside the game.** [Persistent Discord RPG](https://github.com/CinvanaAI/persistent-discord-rpg) remains a whole application. Its durable conversations and character subsystem also led to [reusable interaction state](https://github.com/CinvanaAI/persistent-discord-state-machine/blob/main/ORIGIN.md) and [standalone character rules](https://github.com/CinvanaAI/rpg-character-rules-engine/blob/main/ORIGIN.md).
+
+That's why related projects can have their own repositories: you can take the piece you need while the larger project remains available.
+
+## All projects A-Z
+
+<details>
+<summary>Open all 50 projects, with their examples and source guides</summary>
 
 | Project | What you can do with it | Example and source guide |
 |---|---|---|
@@ -63,4 +87,6 @@ Everything below has the same place in the collection. This directory is alphabe
 | [Usage Capture](https://github.com/CinvanaAI/usage-capture) | Turn a visible usage display into local, inspectable values with separately preserved Codex and Ollama adapters. | [Explore](https://cinvanaai.github.io/lab-portfolio/projects/usage-capture.html) |
 | [Verified Completion Kernel](https://github.com/CinvanaAI/verified-completion-kernel) | Evaluate an operation’s artifacts against explicit completion rules and retain a structured result/resume record when verification is incomplete. | [Explore](https://cinvanaai.github.io/lab-portfolio/projects/verified-completion-kernel.html) |
 
-Start wherever your curiosity takes you. The examples are there to make the work inspectable, and each repository is open for concrete questions and improvements under its stated license.
+</details>
+
+[Search and filter the whole collection](https://cinvanaai.github.io/lab-portfolio/) to find another way in. Each repository carries its own reuse terms.
